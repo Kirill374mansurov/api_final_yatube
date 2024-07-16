@@ -53,4 +53,3 @@ class FollowSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError(
                 'Нельзя подписаться на себя самого!')
         return data
-
