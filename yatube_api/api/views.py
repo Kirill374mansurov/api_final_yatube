@@ -1,7 +1,5 @@
-from http import HTTPStatus
-
 from django.shortcuts import get_object_or_404
-from posts.models import Post, Group
+from posts.models import Group, Post
 from rest_framework import viewsets, permissions, mixins, filters
 from rest_framework.pagination import LimitOffsetPagination
 
